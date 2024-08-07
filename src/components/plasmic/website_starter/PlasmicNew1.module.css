@@ -1,0 +1,236 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.root > * {
+  grid-column: 4;
+}
+.iPhone131449 {
+  background: rgba(255, 255, 255, 1);
+  width: 390px;
+  height: 844px;
+  display: block;
+  overflow: hidden;
+  border-radius: 24px;
+}
+.text__lJgg9 {
+  display: block;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(220, 24, 24, 1);
+  position: absolute;
+  top: 192px;
+  left: 22px;
+}
+.frame56 {
+  width: 150px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 124px;
+  left: 208px;
+}
+.group126 {
+  width: 150px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.group1 {
+  width: 150px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle10 {
+  background: rgba(160, 195, 252, 0.79);
+  width: 150px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
+.text__iZyvp {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(213, 19, 78, 1);
+  position: absolute;
+  top: 4px;
+  left: 46px;
+}
+.group124 {
+  width: 113px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 546px;
+  left: 136px;
+}
+.rectangle13 {
+  background: linear-gradient(
+      90deg,
+      rgba(220, 24, 24, 1) 0%,
+      rgba(220, 24, 24, 1) 100%
+    )
+    0% 0% / 100% 100% no-repeat;
+  width: 113px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+}
+.text__xol98 {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5px;
+  left: 24px;
+}
+.unnamed1 {
+  background: url("./images/unnamed1.png") center center / cover no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 464px;
+  left: 103px;
+}
+.download2 {
+  background: url("./images/download2.png") center center / cover no-repeat;
+  width: 21px;
+  height: 21px;
+  display: block;
+  position: absolute;
+  top: 468px;
+  left: 150px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #7369eb;
+  transform: scale(1.000000499999875, 0.999999500000375)
+    rotate(-0.057295760416576934deg) skew(-0.05729570311883569deg, 0deg);
+  width: 21px;
+  height: 16px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 479px;
+  left: 64px;
+  border-radius: 90px;
+}
+.text__i4XKv {
+  display: block;
+  font-size: 12px;
+  font-family: "Itim";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.649);
+  position: absolute;
+  top: 439px;
+  left: 16px;
+}
+.text__hXhHs {
+  display: block;
+  font-size: 10px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(194, 40, 40, 1);
+  position: absolute;
+  top: 436px;
+  left: 204px;
+}
+.rectangle139 {
+  background: rgba(65, 189, 229, 1);
+  width: 431px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  top: 234px;
+  left: -30px;
+}
+.component37 {
+  background: rgba(255, 255, 255, 1);
+  width: 246px;
+  height: 37px;
+  display: block;
+  position: absolute;
+  top: 265px;
+  left: 81px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.text__djHGg {
+  display: block;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 13px;
+  left: 58px;
+}
+.component38 {
+  background: rgba(255, 255, 255, 1);
+  width: 246px;
+  height: 37px;
+  display: block;
+  position: absolute;
+  top: 335px;
+  left: 81px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.text___07NiC {
+  display: block;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 13px;
+  left: 58px;
+}
